@@ -15,7 +15,7 @@ export default function ProfilePhoto() {
           <div className="hero-grid grid size-full place-items-center !opacity-100" role="img" aria-label="Photo placeholder">
             <div className="flex flex-col items-center gap-3 text-muted">
               <User size={72} strokeWidth={1} aria-hidden="true" />
-              <span className="rounded border border-dashed border-line bg-bg/80 px-3 py-1 font-mono text-xs">Add your photo</span>
+              <span className="rounded border border-dashed border-line bg-bg/80 px-3 py-1 font-mono text-xs"></span>
             </div>
           </div>
         )}

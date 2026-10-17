@@ -14,7 +14,7 @@ export type Project = {
 }
 
 export const profile = {
-  photo: '',
+  photo: '/images/profile.jpg', // Add your photo in public/images and reference it here. (hidden while empty)
   name: 'Marielle Anne D. Del Mar', // PLACEHOLDER
   initials: 'Maye', // PLACEHOLDER
   role: 'BSIT Student',
@@ -22,7 +22,7 @@ export const profile = {
   highlight: 'code',
   intro:
     "I'm an Information Technology student passionate about software development and using technology to solve real-world problems. I enjoy learning, building, and creating meaningful projects.",
-  email: 'marielledelmar@gmail.com', // PLACEHOLDER
+  email: 'ainaaa505@gmail.com', // PLACEHOLDER
   github: '', // e.g. 'https://github.com/username' (hidden while empty)
   linkedin: '', // e.g. 'https://www.linkedin.com/in/username' (hidden while empty)
   closing: 'Learning in public, one project at a time.',
@@ -53,7 +53,8 @@ export const projects: Project[] = [
     status: 'In development',
     description:
       'An academic project concept for an AI-integrated animal welfare, rescue, and adoption management system featuring OCR and geofencing services.',
-    tags: ['OCR', 'Geofencing', 'AI (planned)'], // Replace with technologies you actually use.
+    tags: ['OCR', 'Geofencing', 'AI (planned)'], 
+    image: '/images/ongoing.png', // Add a screenshot of your project in public/images and reference it here.
   },
   {
     title: 'QR-Linked Print Ordering System',
@@ -72,12 +73,20 @@ export const projects: Project[] = [
     image: '/images/pizzeria.jpeg',
   },
   {
-     title: 'Patintero',
+    title: 'Patintero',
     category: 'Group Project',
     status: 'Completed',
     description: 'A basic classic Filipino game web application.',
     tags: ['HTML5', 'CSS3', 'JavaScript'],
     image: '/images/patintero.png',
+  },
+  {
+    title: 'PawCare',
+    category: 'Group Project',
+    status: 'Completed',
+    description: 'A web application for managing animal care and welfare services.',
+    tags: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap', 'Django'],
+    image: '/images/pawcare.png',
   },
 ]
 
