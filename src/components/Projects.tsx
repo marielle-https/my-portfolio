@@ -21,7 +21,7 @@ const linkCls = 'inline-flex min-h-10 items-center gap-1.5 text-sm text-muted tr
 export default function Projects() {
   return (
     <Section id="projects" label="Featured projects" title="Work in progress, described accurately.">
-      <ul className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <ul className={`grid gap-6 md:grid-cols-2 ${projects.length % 3 === 1 ? '' : 'lg:grid-cols-3'}`}>
         {projects.map((p) => (
           <li key={p.title} className="group flex flex-col overflow-hidden rounded-xl border border-line bg-surface/70 transition-colors hover:border-accent/60">
             <Preview project={p} />

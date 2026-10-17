@@ -61,13 +61,23 @@ export const projects: Project[] = [
     status: 'Concept',
     description: 'A web application concept for organizing print orders through QR-based access and an administrative interface.', // Confirm scope before publishing.
     tags: ['QR codes', 'Admin interface'],
+    image: '/images/delmarprint.png', // Add a screenshot of your project in public/images and reference it here.
   },
   {
-    title: 'Personal Portfolio',
-    category: 'Personal project',
-    status: 'In progress',
-    description: 'A responsive developer portfolio built with React, TypeScript, Vite, and Tailwind CSS, featuring an animated digital background.',
-    tags: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
+    title: 'Pizzeria',
+    category: 'Group Project',
+    status: 'Completed',
+    description: 'A basic responsive web application for a local pizzeria, featuring a menu display and online ordering system.',
+    tags: ['HTML5', 'CSS3', 'JavaScript'],
+    image: '/images/pizzeria.jpeg',
+  },
+  {
+     title: 'Patintero',
+    category: 'Group Project',
+    status: 'Completed',
+    description: 'A basic classic Filipino game web application.',
+    tags: ['HTML5', 'CSS3', 'JavaScript'],
+    image: '/images/patintero.png',
   },
 ]
 
