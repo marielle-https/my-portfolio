@@ -21,7 +21,7 @@ export default function Footer() {
           <a href={`mailto:${profile.email}`} className={ic} aria-label="Send an email"><Mail size={20} aria-hidden="true" /></a>
         </div>
       </div>
-      <p className="border-t border-line py-4 text-center text-xs text-muted">© {new Date().getFullYear()} {profile.name}. Built with React, TypeScript, Vite, and Tailwind CSS.</p>
+      <p className="border-t border-line py-4 text-center text-xs text-muted">© {new Date().getFullYear()} {profile.name}</p>
     </footer>
   )
 }

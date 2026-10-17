@@ -48,15 +48,6 @@ export const skills: SkillGroup[] = [
 
 export const projects: Project[] = [
   {
-    title: 'PawResQ',
-    category: 'Academic capstone',
-    status: 'In development',
-    description:
-      'An academic project concept for an AI-integrated animal welfare, rescue, and adoption management system featuring OCR and geofencing services.',
-    tags: ['OCR', 'Geofencing', 'AI (planned)'], 
-    image: '/images/ongoing.png', // Add a screenshot of your project in public/images and reference it here.
-  },
-  {
     title: 'QR-Linked Print Ordering System',
     category: 'Academic or personal project',
     status: 'Concept',
